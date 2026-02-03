@@ -1,0 +1,24 @@
+.countries-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.country {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.img-box {
+    height: 140px;
+    width: 100%;
+}
+
+.img-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
