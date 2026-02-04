@@ -3,12 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Navigator</title>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
+
 <body>
-    <div class="countries-card"></div>
-    <script src="../js/countries.js"></script>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search countries..." aria-label="Search countries">
+    </div>
+    <div class="card"></div>
+    <div id="pagination-nav" class="pagination-container"></div>
+
+    <div id="country-modal" class="modal" aria-hidden="true">
+        <div class="modal-content" role="dialog" aria-modal="true">
+            <button class="modal-close" aria-label="Close modal">&times;</button>
+            <img id="modal-flag" alt="" />
+            <h2 id="modal-name"></h2>
+            <h2 id="modal-border"></h2>
+            <div class="weather-card">
+                <h2 id="city-name">Loading...</h2>
+                <h1 id="temp">--°C</h1>
+                <p id="condition">--</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/index.js"></script>
 </body>
 
 </html>
