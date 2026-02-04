@@ -167,7 +167,7 @@ document.addEventListener('click', (e) => {
 fetchData();
 
 
-const apiKey = 'zpka_5590e2d938eb4eaa8758365fb84d1d4e_53cedbd8'; // Replace with actual AccuWeather API key
+const YOURNAME = 'API_KEY'; // Replace with actual AccuWeather API key
 
 async function getWeather(country) {
     try {
