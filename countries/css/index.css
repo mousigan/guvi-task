@@ -1,3 +1,4 @@
+
 .search-container {
     text-align: center;
     padding: 1.5rem;
@@ -9,7 +10,7 @@
     max-width: 500px;
     padding: 12px 20px;
     border: 2px solid #ddd;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
     transition: border-color 0.3s;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
